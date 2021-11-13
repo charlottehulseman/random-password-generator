@@ -76,15 +76,3 @@ function writePassword() {
 
   passwordText.value = password;
 }
-
-
-// CODE PLANNING BELOW
-// TODO: Create four arrays for lower case, upper case, numbers and special characters [Done]
-// TODO: Establish interactive YES/NO questions regarding lower case letters, upper case letters, numbers and special characters for user to customize random password
-// TODO: Establish interactive user input question regarding number of desired characters
-// TODO: Implement password length range restriction between 5-128 characters
-// TODO: If all four user inputs are NO, return an error message stating to choose yes to at least one of them
-// TODO: If a number outside of length range restriction is inputted by user, return error message stating to choose a larger or smaller number of desired characters.
-// TODO: Create random number selector from arrays and character amount desired by user
-// TODO: Add event listener to activate button
-// TODO: Create element to display randomly generated password and return user to beginning of program
